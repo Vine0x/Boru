@@ -1515,6 +1515,9 @@ img {
   .hero-title {
     font-size: 48px;
   }
+   #hero-typing-text {
+    font-size: 15px; /* reduced size for mobile */
+  }
 
   .tagline {
     font-size: 18px;
