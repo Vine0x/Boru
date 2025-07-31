@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boru</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Modak&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<!-- Google Font: Modak -->
+<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader-wrapper">
+      <img src="assets/Borulogo.svg" alt="Boru Logo" class="bouncing-logo" id="boru" />
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div id="main-content" style="display: none;">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/Borulogo.svg" alt="Boru Logo" />
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#" class="nav-button active">Home</a></li>
+        <li><a href="#">Characters</a></li>
+        <li><a href="#">Mint</a></li>
+        <li class="nav-social">
+          <a id="closeBtn" class="social-icon">
+            <img src="assets/Xicon.svg" alt="Twitter Icon" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+        <h1 class="hero-title boru-title">
+
+            Boru
+          </h1>
+     <p class="tagline">
+  Let’s ball the system<br />
+  <br />
+  <span id="hero-typing-text"></span>
+</p>
+
+  <div class="cards-wrapper">
+    <div class="cards">
+      <img src="assets/CBoru.png" class="card-left" alt="Card Left" />
+      <img src="assets/cardcenter.png" class="card-center" alt="Card Center" />
+      <img src="assets/Ticket.png" class="card-right" alt="Card Right" />
+    </div>
+
+
+</div>
+
+
+    </section>
+<!-- Social Section -->
+    <section class="social-section">
+  <!-- Background logos -->
+  <div class="social-bg">
+    <img src="assets/fadedsocials.png" class="bg-icon bg-left" alt="" />
+    <img src="assets/fadedsocials.png" class="bg-icon bg-right" alt="" />
+    <img src="assets/fadedsocials.png" class="bg-icon bg-center" alt="" />
+  </div>
+
+  <!-- Heading -->
+  <h1 class="social-heading">
+   Our Socials
+  </h1>
+  <h2 class="japanese"> ボルをフォロー</h2>
+
+  <!-- Icons -->
+  <div class="social-icons">
+  <a href="https://x.com/boru_xyz" target="_blank" title="X (Twitter)">
+    <img src="assets/Borulogo.svg" alt="X icon" />
+  </a>
+  <a href="https://x.com/Hacmackey" title="Mac Hackey">
+    <img src="assets/Capicon.svg" alt="Magic Eden icon" style="width: 180px; height: auto;"/>
+  </a>
+</div>
+</section>
+
+
+
+    <!-- Video Section -->
+<section class="video-section" style="position: relative;">
+  <!-- Hero video section -->
+<video
+  id="boruVideo"
+  class="video-banner"
+  autoplay
+  muted
+  loop
+  playsinline
+  controls
+>
+  <source src="assets/boruvideo.mp4" type="video/mp4" />
+
+
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay">
+    <img src="assets/videoplay.svg" alt="Play Video" />
+  </div>
+  <!-- Mute / Unmute Button -->
+  
+</section>
+
+
+   <section class="who-section">
+     <div class="who-bg"></div>      <!-- background image -->
+  <div class="who-overlay"></div> <!-- overlay -->
+  <div class="who-heading">
+    <h2>Who is Boru?</h2>
+    <p class="japanese">Boru wa hitori janai</p>
+  </div>
+
+  <div class="who-box"> <!-- This is the new wrapper with border -->
+    <div class="who-content">
+      <img src="assets/Boruface.png" alt="Boru face" />
+     <div class="typing-paragraph">
+  <pre id="typing-text"></pre>
+</div>
+
+  </div>
+</section>
+
+    </section>
+
+    <!-- Boru's Court -->
+   <section class="court">
+  <div class="court-bg"></div> <!-- Background image -->
+  <div class="court-overlay"></div> <!-- New dark overlay -->
+<div class="court-content">
+  <div class="court-inner">
+    <div class="court-text">
+      <h2 class="court-heading">Boru’s Court</h2>
+      <button class="coming-soon">Coming Soon</button>
+    </div>
+   <div class="stadium-wrapper">
+  <img src="assets/stadium.jpeg" alt="Stadium" class="stadium-img" />
+</div>
+  </div>
+</div>
+
+</section>
+
+
+
+    <!-- Footer -->
+   <footer class="footer">
+
+  <!-- Layer 1: BORU Title -->
+  <div class="footer-section footer-top">
+    <h1 class="footer-title">BORU</h1>
+  </div>
+
+  <!-- Layer 2: Social icon -->
+  <div class="footer-section footer-middle">
+  <div class="footer-icon-wrapper">
+     <a href="https://x.com/boru_xyz" target="_blank" title="X (Twitter)"></a>
+    <img src="assets/Xicon.svg" alt="X icon" class="footer-icon" />
+  </div>
+</div>
+
+
+  <!-- Layer 3: Copyright -->
+  <div class="footer-section footer-bottom">
+    <p>2025 © Boru</p>
+  </div>
+
+</footer>
+
+  </div> <!-- end main-content -->
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
