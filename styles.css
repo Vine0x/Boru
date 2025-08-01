@@ -1069,6 +1069,7 @@ img {
 }
 
 #hero-typing-text {
+  
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #d9a760;
@@ -1165,26 +1166,24 @@ img {
   z-index: 10;
   letter-spacing: 0.5px;
 }
-
 .social-icons {
-   background: linear-gradient(to bottom, #824c01 0%, #8a5a28 100%) !important;
-
-  color: #752706;
-  border-radius: 30px;
-  border: 3px solid #752706;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  z-index: 10;
+  background: none !important;
+  border: none !important;
+  padding: 20px !important;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icons a {
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
   display: inline-flex;
   transition: transform 0.3s ease;
-  margin: 0;
-  padding: 0;
-  font-size: initial;
 }
 
 .social-icons a:hover {
@@ -1192,11 +1191,13 @@ img {
 }
 
 .social-icons img {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
   display: block;
 }
+
+
 
 .social-bg {
   position: absolute;
@@ -1487,6 +1488,7 @@ img {
   /* Hide nav-links by default on mobile */
 @media (max-width: 768px) {
 
+  
   .nav-links {
     display: none;
     flex-direction: column;
@@ -1513,12 +1515,15 @@ img {
 }
 
   .hero-title {
-    font-size: 48px;
+    font-size: 60px;
   }
    #hero-typing-text {
     font-size: 15px; /* reduced size for mobile */
   }
 
+    #hero-typing-text {
+    font-size: 15px; /* reduced size for mobile */
+  }
   .tagline {
     font-size: 18px;
   }
@@ -1568,9 +1573,12 @@ img {
     max-width: 200px;
   }
 
-  .social-icons {
-    flex-direction: column;
-    gap: 20px;
+   .social-icons {
+    display: flex;             /* Required to activate flex behavior */
+    flex-direction: row;       /* Make icons horizontal */
+    justify-content: center;   /* Optional: center them horizontally */
+    gap: 30px;                 /* Space between icons */
+    padding: 10px 0;
   }
 
   .nav-links {
